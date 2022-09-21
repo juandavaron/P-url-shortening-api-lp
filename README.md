@@ -12,23 +12,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/juandavaron/REEMPLAZAR">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/juandavaron/P-url-shortening-api-lp">
+    <img src="./public/logo192.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">URL shortener</h3>
 
   <p align="center">
-    project_description
+    Helps businesses shine by transforming their links into powerful tools for marketers and customer support teams.
     <br />
-    <a href="https://github.com/juandavaron/REEMPLAZAR"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/juandavaron/P-url-shortening-api-lp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://juandavaron.github.io/REEMPLAZAR/">View Demo</a>
+    <a href="https://juandavaron.github.io/P-url-shortening-api-lp/">View Demo</a>
     ·
-    <a href="https://github.com/juandavaron/REEMPLAZAR/issues">Report Bug</a>
+    <a href="https://github.com/juandavaron/P-url-shortening-api-lp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/juandavaron/REEMPLAZAR/issues">Request Feature</a>
+    <a href="https://github.com/juandavaron/P-url-shortening-api-lp/issues">Request Feature</a>
   </p>
 </div>
 
@@ -52,11 +52,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -65,13 +63,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://juandavaron.github.io/P-url-shortening-api-lp/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
+
+* [![React][React.js]][React-url]
+* [![Sass][Sass]][Sass-url]
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,17 +97,13 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/juandavaron/REEMPLAZAR.git
+   git clone https://github.com/juandavaron/P-url-shortening-api-lp.git
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. In the project directory, you can run:
+4. In the project directory, you can run:
     ```sh
     npm start
     ```
@@ -155,14 +153,6 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -195,36 +185,35 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Juan David Varón - [LinkedIn](https://www.linkedin.com/in/juanvarong/) - juanvarong@gmail.com
 
-Project Link: [https://github.com/juandavaron/REEMPLAZAR](https://github.com/juandavaron/REEMPLAZAR)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+Project Link: [https://github.com/juandavaron/P-url-shortening-api-lp](https://github.com/juandavaron/P-url-shortening-api-lp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/juandavaron/REEMPLAZAR.svg?style=for-the-badge
-[contributors-url]: https://github.com/juandavaron/REEMPLAZAR/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/juandavaron/P-url-shortening-api-lp.svg?style=for-the-badge
+[contributors-url]: https://github.com/juandavaron/P-url-shortening-api-lp/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/juandavaron/REEMPLAZAR.svg?style=for-the-badge
-[forks-url]: https://github.com/juandavaron/REEMPLAZAR/network/members
+[forks-shield]: https://img.shields.io/github/forks/juandavaron/P-url-shortening-api-lp.svg?style=for-the-badge
+[forks-url]: https://github.com/juandavaron/P-url-shortening-api-lp/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/juandavaron/REEMPLAZAR.svg?style=for-the-badge
-[stars-url]: https://github.com/juandavaron/REEMPLAZAR/stargazers
+[stars-shield]: https://img.shields.io/github/stars/juandavaron/P-url-shortening-api-lp.svg?style=for-the-badge
+[stars-url]: https://github.com/juandavaron/P-url-shortening-api-lp/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/juandavaron/REEMPLAZAR.svg?style=for-the-badge
-[issues-url]: https://github.com/juandavaron/REEMPLAZAR/issues
+[issues-shield]: https://img.shields.io/github/issues/juandavaron/P-url-shortening-api-lp.svg?style=for-the-badge
+[issues-url]: https://github.com/juandavaron/P-url-shortening-api-lp/issues
 
-[license-shield]: https://img.shields.io/github/license/juandavaron/REEMPLAZAR.svg?style=for-the-badge
-[license-url]: https://github.com/juandavaron/REEMPLAZAR/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/juandavaron/P-url-shortening-api-lp.svg?style=for-the-badge
+[license-url]: https://github.com/juandavaron/P-url-shortening-api-lp/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juanvarong/
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: /public/images/screenshot.jpg
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
+[Sass]: https://img.shields.io/badge/Sass-cc6699?style=for-the-badge&logo=sass&logoColor=white
+[Sass-url]: https://sass-lang.com/
