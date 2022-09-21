@@ -1,0 +1,11 @@
+@mixin breakpointMax($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+};
+
+@mixin breakpointMin($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+};
