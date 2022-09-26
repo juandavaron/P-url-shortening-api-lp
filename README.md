@@ -52,6 +52,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -149,6 +150,27 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+Users should be able to:
+
+ - View the optimal layout for the site depending on their device's screen size
+ - Shorten any valid URL
+ - See a list of their shortened links, even after refreshing the browser
+ - Copy the shortened link to their clipboard in a single click
+ - Receive an error message when the form is submitted if:
+    - The input field is empty
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Develop design
+- [ ] Make call to API
+- [ ] Create Local Storage
+- [ ] Add a the copy button
+- [ ] Add an error if the input field is empty
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

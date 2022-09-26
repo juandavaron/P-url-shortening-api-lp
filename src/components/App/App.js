@@ -1,10 +1,13 @@
+import React from 'react';
 import './../../style/App.scss';
+import { AppUI } from './AppUI';
 
 function App() {
-  console.log('Hola mundo en la consola.')
+
+  // const URL = 'https://shrtco.de/';
 
   return (
-    <p>Hola mundo</p>
+    <AppUI />
   );
 }
 

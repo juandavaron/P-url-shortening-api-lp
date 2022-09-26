@@ -1,0 +1,62 @@
+.footer {
+  background-color: $clr-very-dark-violet;
+  color: $clr-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__logo {
+    fill: $clr-white;
+    margin: 2.5rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: .5rem;
+
+    &>h4,
+    &>span {
+      font-size: .75rem;
+      padding: .25rem;
+    }
+
+    &>h4 {
+      margin: 1rem 0;
+      font-weight: $font-weight-bold;
+    }
+
+    &>span {
+      cursor: pointer;
+      font-weight: $font-weight-light;
+    }
+  }
+
+  &__networks {
+    width: 9rem;
+    margin: 1.5rem 0;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &>a {
+      color: $clr-white;
+    }
+  }
+
+  &__sign {
+    margin: 1.5rem 0;
+    font-size: .75rem;
+
+    &-link {
+      transform: .4s;
+      &:hover {
+        color: $clr-JV;
+      }
+    }
+  }
+}

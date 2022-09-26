@@ -10,21 +10,51 @@ html {
   font-size: $font-size;
 }
 
+body {
+  font-family: $font-family;
+}
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  transition: .4s;
+
+  &:visited,
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: $clr-cyan;
+  color: $clr-white;
+  padding: .75rem 2rem;
+  border-radius: .5rem;
+  font-size: $font-size-btn;
+  font-weight: $font-weight-bold;
+
+  &.oval {
+    border-radius: 3rem;
+  }
+
+  &.square {
+    padding: 1.5rem 2rem;
+  }
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.section {
+  width: 100%;
+  padding: 1rem;
 }
