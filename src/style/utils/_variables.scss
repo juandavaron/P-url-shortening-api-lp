@@ -5,6 +5,7 @@
   // Secondary
   $clr-red: hsl(0, 87%, 67%);
   // Neutral
+  $clr-light-gray: hsl(0, 0%, 93%);
   $clr-gray: hsl(0, 0%, 75%);
   $clr-gray-violet: hsl(257, 7%, 63%);
   $clr-dark-blue: hsl(255, 11%, 22%);
@@ -12,6 +13,9 @@
   $clr-white: #efefef;
   // Juan Varón
   $clr-JV: #ff7038;
+
+// Box shadow
+  $box-shadow: 0 0 8px 0.5px $clr-gray;
 
 // Typography
   // Body Copy

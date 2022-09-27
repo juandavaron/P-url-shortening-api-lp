@@ -1,0 +1,47 @@
+.info {
+  padding-top: 9rem;
+  background-color: $clr-light-gray;
+  gap: 1rem;
+
+  & h2 {
+    color: $clr-very-dark-violet;
+  }
+
+  & p {
+    color: $clr-gray-violet;
+    text-align: center;
+    font-size: .90rem;
+  }
+
+  &__container {
+    margin: 3rem 0;
+  }
+
+  &__item {
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+    background-color: $clr-white;
+    border-radius: .25rem;
+    box-shadow: $box-shadow;
+  }
+
+  &__img {
+    height: 4.75rem;
+    width: 4.75rem;
+    position: relative;
+    top: -2.25rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $clr-dark-violet;
+    border-radius: 50%;
+  }
+
+  &__divider {
+    width: .5rem;
+    height: 5.5rem;
+    margin: auto;
+    background-color: $clr-cyan;
+  }
+}
