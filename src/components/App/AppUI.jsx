@@ -7,17 +7,23 @@ import { Info } from "../Info/Info";
 import { Boost } from "../Boost/Boost";
 import { Footer } from "../Footer/Footer";
 
-function AppUI() {
+function AppUI({
+  openModal,
+  setOpenModal
+}) {
   return (
     <React.Fragment>
-      <Header></Header>
+      <Header
+        openModal={openModal}
+        setOpenModal={setOpenModal}
+      />
       <Main>
-        <Home></Home>
+        <Home />
         {/* <Hero></Hero> */}
-        <Info></Info>
-        <Boost></Boost>
+        <Info />
+        <Boost />
       </Main>
-      <Footer></Footer>
+      <Footer />
     </React.Fragment>
   )
 };

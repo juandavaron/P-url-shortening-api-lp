@@ -6,8 +6,15 @@ function App() {
 
   // const URL = 'https://shrtco.de/';
 
+  // Estado
+  const [openModal, setOpenModal] = React.useState(false);
+  
+
   return (
-    <AppUI />
+    <AppUI
+      openModal={openModal}
+      setOpenModal={setOpenModal}
+    />
   );
 }
 

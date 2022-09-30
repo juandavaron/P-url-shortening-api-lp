@@ -1,15 +1,13 @@
 import React from "react";
-import { ReactComponent as Logo } from './../../style/svg/illustration-working.svg'
+import { Button } from "../Button/Button";
 
 function Home() {
   return(
     <section className="section home">
-      <div className="home__container">
-        <Logo className="home__img"/>
-      </div>
+      <div className="home__container"></div>
       <h1>More than just shorter links</h1>
       <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
-      <button className="oval">Get Started</button>
+      <Button className="oval">Get Started</Button>
     </section>
   )
 };

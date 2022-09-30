@@ -1,9 +1,10 @@
 .home {
 
-  &__img {
-    border: 1px solid red;
-    max-width: 100%;
-    height: auto;
+  &__container {
+    height: 18rem;
+    background: url('./../../style/svg/illustration-working.svg') no-repeat 1.5rem;
+    background-size: cover;
+    width: 100vw;
   }
 
   & h1 {
