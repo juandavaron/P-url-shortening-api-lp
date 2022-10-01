@@ -8,12 +8,15 @@ function App() {
 
   // Estado
   const [openModal, setOpenModal] = React.useState(false);
-  
+  const [shortenLink, setShortenLink] = React.useState('');
+
 
   return (
     <AppUI
       openModal={openModal}
       setOpenModal={setOpenModal}
+      shortenLink={shortenLink}
+      setShortenLink={setShortenLink}
     />
   );
 }

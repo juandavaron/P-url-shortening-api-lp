@@ -165,9 +165,11 @@ Users should be able to:
 ## Roadmap
 
 - [ ] Develop design
-- [ ] Make call to API
-- [ ] Create Local Storage
-- [ ] Add a the copy button
+  - [✅] Create modal
+  - [ ] Do it Responsive
+- [✅] Make the call to the API
+- [ ] Create the Local Storage
+- [ ] Add the copy button
 - [ ] Add an error if the input field is empty
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).

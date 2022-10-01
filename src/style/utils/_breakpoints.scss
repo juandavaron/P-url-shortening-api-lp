@@ -10,5 +10,119 @@
   }
 };
 
-@include breakpointMin($mobile){};
-@include breakpointMin($desktop){};
+// ---| CALL |---
+
+// PRIMERO
+@include breakpointMax($mobile){
+  .inactive {
+    display: none
+  }
+};
+
+//  SEGUNDO
+@include breakpointMin($tablet) {
+  .inactive{
+    display: none;
+  }
+
+  .home {
+    &__img {
+      height: 19rem;
+      background-position: 5rem;
+    }
+
+    &__copy {
+      margin-top: 1rem;
+    }
+  }
+
+  .section {
+    padding: 2rem;
+  }
+};
+
+// TERCERO
+@include breakpointMin($tablet-big) {
+  .home {
+
+    &__img {
+      height: 22rem;
+      background-position: 8rem;
+    }
+
+    &__copy {
+      margin-top: 1rem;
+    }
+  }
+};
+
+// CUARTO
+@include breakpointMin($desktop-small) {
+  .section {
+    flex-direction: row;
+  }
+
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: .5rem 0 1rem 1rem;
+
+    &__img {
+      height: 17rem;
+      width: auto;
+      order: 1;
+      background-position: 5rem;
+    }
+
+    &__copy {
+      align-self: center;
+      text-align: start;
+
+      & h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: .001rem;
+      }
+    }
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    &__logo {
+      margin: auto;
+      grid-column: 1/4;
+      align-self: flex-start;
+    }
+
+    &__container {
+      align-self: flex-start;
+      align-items: flex-start;
+    }
+
+    &__network {
+      align-self: flex-start;
+    }
+
+    &__sign {
+      grid-column: 1/8;
+      justify-self: center;
+      align-self: center;
+    }
+  }
+};
+
+// QUINTO
+@include breakpointMin($desktop) {
+  .home {
+
+    &__container {
+      height: 35rem;
+    }
+  }
+};

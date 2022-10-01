@@ -11,6 +11,8 @@
   $clr-dark-blue: hsl(255, 11%, 22%);
   $clr-very-dark-violet: hsl(260, 8%, 14%);
   $clr-white: #efefef;
+  $clr-white-container: #fefefe;
+  $clr-black: #262626;
   // Juan Varón
   $clr-JV: #ff7038;
 
@@ -19,8 +21,8 @@
 
 // Typography
   // Body Copy
-  $font-size: 18px;
-  $font-size-btn: 19px;
+  $font-size: 16px;
+  $font-size-btn: 17px;
   // Fonts
   $font-family: 'Poppins', sans-serif;
   $font-weight-bold: 700;
@@ -29,7 +31,13 @@
   $font-weight-thin: 100;
 
 // Breakpoint
-  // Mobile 375px / 18px = 20.83em;
-  $mobile: 20.83em;
-  // Desktop 1440px / 18px = 80em;
-  $desktop: 80em;
+  // Mobile 340px / 16px = 21.25em;
+  $mobile: 21.25em;
+  // Tablet 490px / 16px = 30.625em;
+  $tablet: 30.625em;
+  // Big Tablet 630px / 16px = 39.375em;
+  $tablet-big: 39.375em;
+  // Small Desktop 902px / 16px = 56.375em;
+  $desktop-small: 56.375em;
+  // Desktop 1080px / 16px = 67.5em;
+  $desktop: 67.5em;

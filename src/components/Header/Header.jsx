@@ -14,7 +14,7 @@ function Header({
 
   return(
     <header className="header">
-      <Logo />
+      <Logo className="header__logo"/>
       <Menu
         onClick={modal}
         className='header__menu'
