@@ -13,7 +13,7 @@
 // ---| CALL |---
 
 // PRIMERO
-@include breakpointMax($mobile){
+@include breakpointMin($mobile){
   .inactive {
     display: none
   }
@@ -21,10 +21,6 @@
 
 //  SEGUNDO
 @include breakpointMin($tablet) {
-  .inactive{
-    display: none;
-  }
-
   .home {
     &__img {
       height: 19rem;
@@ -36,22 +32,51 @@
     }
   }
 
-  .section {
-    padding: 2rem;
+  .modal__container {
+    width: 25rem;
   }
 };
 
 // TERCERO
 @include breakpointMin($tablet-big) {
+  .header {
+
+    &__menu {
+      display: none;
+    }
+
+    &__bar {
+      display: initial;
+    }
+  }
+
   .home {
 
     &__img {
       height: 22rem;
-      background-position: 8rem;
+      background-position: center;
     }
 
     &__copy {
-      margin-top: 1rem;
+      margin: 1rem 5rem;
+    }
+  }
+
+  .hero {
+    
+    &__container {
+      padding: 0 2rem;
+    }
+  }
+
+  .info {
+    
+    &__container {
+      margin: 2rem 5rem;
+    }
+
+    &__list {
+      width: 22.5rem;
     }
   }
 };
@@ -62,21 +87,29 @@
     flex-direction: row;
   }
 
+  .header {
+    margin: 1.5rem 6rem;
+  }
+
   .home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: .5rem 0 1rem 1rem;
+    padding: 0 2rem;
+    margin: 3rem 4rem 7rem 4rem;
+
+    &__container {
+      width: 55rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
 
     &__img {
-      height: 17rem;
+      height: 20rem;
       width: auto;
       order: 1;
-      background-position: 5rem;
     }
 
     &__copy {
-      align-self: center;
       text-align: start;
+      margin: 0;
 
       & h1 {
         font-size: 3rem;
@@ -86,11 +119,61 @@
     }
   }
 
+  .hero {
+    
+    &__shorten{
+      padding: 2rem 2rem;
+      background: $clr-dark-violet url('./../svg/bg-shorten-desktop.svg') no-repeat center;
+      background-size: cover;
+      flex-direction: row;
+
+      &-input {
+        width: 70%;
+      }
+
+      &-btn {
+        width: 30%;
+      }
+    }
+  }
+
   .info {
+    flex-direction: column;
+
+    &__container {
+
+      & > h2 {
+        font-size: 2rem;
+      }
+
+      & > p {
+        width: 50%;
+      }
+    }
+
+
+    &__list {
+      margin: 5rem 0 2rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__divider {
+      width: .5rem;
+      height: 5.5rem;
+    }
+  }
+
+  .boost {
+    background: $clr-dark-violet url('./../svg/bg-boost-desktop.svg') no-repeat center;
+    background-size: cover;
     flex-direction: column;
   }
 
   .footer {
+    padding-top: 2.5rem;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 
@@ -119,10 +202,39 @@
 
 // QUINTO
 @include breakpointMin($desktop) {
-  .home {
+  .hero {
 
     &__container {
-      height: 35rem;
+      width: 55rem;
+    }
+  }
+
+  .info {
+
+    &__container {
+      width: 55rem;
+    }
+
+    &__list {
+      width: inherit;
+      height: 20rem;
+      flex-direction: row;
+    }
+
+    &__item {
+
+      &:nth-child(1) {
+        align-self: flex-start;
+      }
+
+      &:nth-child(5) {
+        align-self: flex-end;
+      }
+    }
+
+    &__divider {
+      width: 5rem;
+      height: .5rem;
     }
   }
 };

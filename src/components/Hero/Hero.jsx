@@ -35,7 +35,7 @@ function Hero({
             onClick={postLink}
           >Shorten It!</Button>
         </div>
-        <div className="hero__item square"></div>
+        <div className="hero__item"></div>
       </div>
     </section>
   )

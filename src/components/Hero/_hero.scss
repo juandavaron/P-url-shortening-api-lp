@@ -1,16 +1,18 @@
 .hero {
   background-color: $clr-light-gray;
-  margin-top: 7.5rem;
+  margin-top: 5rem;
+  padding: 0 0 7rem 0;
+  position: relative;
 
   &__container {
-    width: 100%;
-    position: relative;
-    top: -5.25rem;
+    width: 80%;
+    position: absolute;
+    top: -3.5rem;
   }
 
   &__shorten {
     padding: 1.25rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     background: $clr-dark-violet url('./../../style/svg/bg-shorten-mobile.svg') no-repeat top right;
     display: flex;
     flex-direction: column;

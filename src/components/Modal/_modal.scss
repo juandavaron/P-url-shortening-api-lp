@@ -1,12 +1,11 @@
 .modal {
+  height: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 
   &__close {
     position: absolute;
@@ -24,7 +23,6 @@
     margin: 5rem 0;
     background-color: $clr-dark-violet;
     color: $clr-white;
-    // font-weight: $font-weight-bold;
     border-radius: .5rem;
     z-index: 100;
 
@@ -61,45 +59,3 @@
     width: 100%;
   }
 }
-
-
-
-
-
-
-// .modal {
-//   background-color: $clr-dark-violet;
-//   color: $clr-white;
-//   height: 60%;
-//   position: fixed;
-//   top: 5rem;
-//   left: 1.5rem;
-//   right: 1.5rem;
-//   border-radius: .5rem;
-
-//   &__container {
-//     padding: 2rem 1rem;
-//     height: 100%;
-
-//     &>div {
-//       display: flex;
-//       justify-content: space-evenly;
-//       align-items: center;
-//       flex-direction: column;
-//       font-weight: $font-weight-bold;
-//     }
-//   }
-
-//   &__info {
-//     height: 55%;
-//     border-bottom: 1px solid $clr-white;
-//   }
-
-//   &__logIn {
-//     height: 45%;
-//   }
-
-//   &__btn {
-//     width: 100%;
-//   }
-// }

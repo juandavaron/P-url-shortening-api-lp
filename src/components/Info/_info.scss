@@ -1,24 +1,36 @@
 .info {
+  padding: 0 1.5rem;
   background-color: $clr-light-gray;
   gap: 1rem;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
   & h2,
   & h3 {
     color: $clr-black;
   }
 
-  & p {
-    color: $clr-gray-violet;
-    text-align: center;
-    font-size: .90rem;
+  & h3 {
+    margin-bottom: .5rem;
   }
 
-  &__container {
+  & p {
+    color: $clr-gray-violet;
+    font-size: .90rem;
+    text-align: center;
+  }
+
+  &__list {
     margin: 3rem .5rem;
   }
 
   &__item {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1.5rem 2rem 1.5rem;
     text-align: center;
     background-color: $clr-white-container;
     border-radius: .25rem;
@@ -28,14 +40,14 @@
   &__img {
     height: 4.75rem;
     width: 4.75rem;
+    background-color: $clr-dark-violet;
+    border-radius: 50%;
     position: relative;
     top: -2.25rem;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $clr-dark-violet;
-    border-radius: 50%;
   }
 
   &__divider {
