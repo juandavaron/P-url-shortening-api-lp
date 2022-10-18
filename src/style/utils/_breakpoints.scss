@@ -2,22 +2,28 @@
   @media screen and (max-width: $size) {
     @content;
   }
-};
+}
+
+;
 
 @mixin breakpointMin($size) {
   @media screen and (min-width: $size) {
     @content;
   }
-};
+}
+
+;
 
 // ---| CALL |---
 
 // PRIMERO
-@include breakpointMin($mobile){
+@include breakpointMin($mobile) {
   .inactive {
     display: none
   }
-};
+}
+
+;
 
 //  SEGUNDO
 @include breakpointMin($tablet) {
@@ -35,21 +41,12 @@
   .modal__container {
     width: 25rem;
   }
-};
+}
+
+;
 
 // TERCERO
 @include breakpointMin($tablet-big) {
-  .header {
-
-    &__menu {
-      display: none;
-    }
-
-    &__bar {
-      display: initial;
-    }
-  }
-
   .home {
 
     &__img {
@@ -63,14 +60,14 @@
   }
 
   .hero {
-    
+
     &__container {
       padding: 0 2rem;
     }
   }
 
   .info {
-    
+
     &__container {
       margin: 2rem 5rem;
     }
@@ -79,7 +76,9 @@
       width: 22.5rem;
     }
   }
-};
+}
+
+;
 
 // CUARTO
 @include breakpointMin($desktop-small) {
@@ -89,6 +88,40 @@
 
   .header {
     margin: 1.5rem 6rem;
+
+    &__menu {
+      display: none;
+    }
+
+    &__logo {
+      margin-right: 1rem;
+    }
+
+    &__bar {
+      display: initial;
+      width: 85%;
+
+      & .headerBar {
+
+        &__container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        &__info>span,
+        &__logIn>span {
+          padding-right: 1rem;
+          color: $clr-gray;
+          cursor: pointer;
+          transition: .4s;
+
+          &:hover {
+            color: $clr-black;
+          }
+        }
+      }
+    }
   }
 
   .home {
@@ -120,8 +153,8 @@
   }
 
   .hero {
-    
-    &__shorten{
+
+    &__shorten {
       padding: 2rem 2rem;
       background: $clr-dark-violet url('./../svg/bg-shorten-desktop.svg') no-repeat center;
       background-size: cover;
@@ -135,6 +168,21 @@
         width: 30%;
       }
     }
+
+    &__item {
+      padding: 1rem 2rem;
+      flex-direction: row;
+      justify-content: space-between;
+
+      & span:nth-child(1) {
+        padding: 0;
+        border-bottom: none;
+      }
+
+      & span:nth-child(2) {
+        padding: 0;
+      }
+    }
   }
 
   .info {
@@ -142,11 +190,11 @@
 
     &__container {
 
-      & > h2 {
+      &>h2 {
         font-size: 2rem;
       }
 
-      & > p {
+      &>p {
         width: 50%;
       }
     }
@@ -198,7 +246,9 @@
       align-self: center;
     }
   }
-};
+}
+
+;
 
 // QUINTO
 @include breakpointMin($desktop) {
@@ -237,4 +287,6 @@
       height: .5rem;
     }
   }
-};
+}
+
+;

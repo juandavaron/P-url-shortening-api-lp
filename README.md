@@ -164,13 +164,13 @@ Users should be able to:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Develop design
+- [✅] Develop design
   - [✅] Create modal
-  - [ ] Do it Responsive
+  - [✅] Do it Responsive
 - [✅] Make the call to the API
+- [ ] Add an error if the input field is empty
 - [ ] Create the Local Storage
 - [ ] Add the copy button
-- [ ] Add an error if the input field is empty
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 

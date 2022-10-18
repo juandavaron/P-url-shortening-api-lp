@@ -48,9 +48,14 @@ button {
   border-radius: .5rem;
   font-size: $font-size-btn;
   font-weight: $font-weight-bold;
+  transition: .4s;
 
   &.oval {
     border-radius: 3rem;
+  }
+
+  &:hover {
+    filter: brightness(1.075);
   }
 }
 

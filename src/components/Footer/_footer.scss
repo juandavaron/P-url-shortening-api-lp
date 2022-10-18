@@ -29,6 +29,11 @@
     &>span {
       cursor: pointer;
       font-weight: $font-weight-light;
+      transition: .4s;
+
+      &:hover {
+        color: $clr-cyan;
+      }
     }
   }
 
@@ -42,6 +47,11 @@
 
     &>a {
       color: $clr-white;
+      transition: .4s;
+
+      &:hover {
+        color: $clr-cyan;
+      }
     }
   }
 

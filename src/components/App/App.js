@@ -8,13 +8,21 @@ function App() {
 
   // Estado
   const [openModal, setOpenModal] = React.useState(false);
-  const [shortenLink, setShortenLink] = React.useState('');
+  const [inputText, setInputText] = React.useState('');
+  const [shortenLink, setShortenLink] = React.useState([]);
+
+  // Límite de shortenLink
+  // if(shortenLink.length > 3) {
+  //   console.log(shortenLink.length)
+  // }
 
 
   return (
     <AppUI
       openModal={openModal}
       setOpenModal={setOpenModal}
+      inputText={inputText}
+      setInputText={setInputText}
       shortenLink={shortenLink}
       setShortenLink={setShortenLink}
     />

@@ -10,6 +10,8 @@ import { Footer } from "../Footer/Footer";
 function AppUI({
   openModal,
   setOpenModal,
+  inputText,
+  setInputText,
   shortenLink,
   setShortenLink
 }) {
@@ -22,6 +24,8 @@ function AppUI({
       <Main>
         <Home />
         <Hero
+          inputText={inputText}
+          setInputText={setInputText}
           shortenLink={shortenLink}
           setShortenLink={setShortenLink}
         />
